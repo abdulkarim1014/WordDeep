@@ -1,0 +1,5 @@
+{
+  "name": "WordDeep Offline Dictionary",
+  "description": "An offline English-Arabic dictionary with local search, caching, and related words.",
+  "requestFramePermissions": []
+}
