@@ -72,8 +72,8 @@ export default function WordDeep() {
     setIsSearching(true);
 
     try {
-      const letter = normalizedWord[0];
-      const response = await fetch(`/dictionary/${letter}.json`);
+      const letter = normalizedWord[0].toUpperCase();
+const response = await fetch(`/${letter}.json`);
       if (!response.ok) throw new Error('File not found');
 
       const data = await response.json();
